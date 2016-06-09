@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91AD0B71D09BCDF000ED124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AD0B61D09BCDF000ED124 /* AppDelegate.swift */; };
+		E91AD0B91D09BCDF000ED124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AD0B81D09BCDF000ED124 /* ViewController.swift */; };
+		E91AD0BC1D09BCDF000ED124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91AD0BA1D09BCDF000ED124 /* Main.storyboard */; };
+		E91AD0BE1D09BCDF000ED124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AD0BD1D09BCDF000ED124 /* Assets.xcassets */; };
+		E91AD0C11D09BCDF000ED124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91AD0BF1D09BCDF000ED124 /* LaunchScreen.storyboard */; };
+		E91AD0CC1D09BCDF000ED124 /* Stretchy_SnacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AD0CB1D09BCDF000ED124 /* Stretchy_SnacksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91AD0C81D09BCDF000ED124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91AD0AB1D09BCDF000ED124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91AD0B21D09BCDF000ED124;
+			remoteInfo = "Stretchy Snacks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E91AD0B31D09BCDF000ED124 /* Stretchy Snacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretchy Snacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AD0B61D09BCDF000ED124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E91AD0B81D09BCDF000ED124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E91AD0BB1D09BCDF000ED124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91AD0BD1D09BCDF000ED124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91AD0C01D09BCDF000ED124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E91AD0C21D09BCDF000ED124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91AD0C71D09BCDF000ED124 /* Stretchy SnacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stretchy SnacksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AD0CB1D09BCDF000ED124 /* Stretchy_SnacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretchy_SnacksTests.swift; sourceTree = "<group>"; };
+		E91AD0CD1D09BCDF000ED124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91AD0B01D09BCDF000ED124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AD0C41D09BCDF000ED124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91AD0AA1D09BCDF000ED124 = {
+			isa = PBXGroup;
+			children = (
+				E91AD0B51D09BCDF000ED124 /* Stretchy Snacks */,
+				E91AD0CA1D09BCDF000ED124 /* Stretchy SnacksTests */,
+				E91AD0B41D09BCDF000ED124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91AD0B41D09BCDF000ED124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91AD0B31D09BCDF000ED124 /* Stretchy Snacks.app */,
+				E91AD0C71D09BCDF000ED124 /* Stretchy SnacksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91AD0B51D09BCDF000ED124 /* Stretchy Snacks */ = {
+			isa = PBXGroup;
+			children = (
+				E91AD0B61D09BCDF000ED124 /* AppDelegate.swift */,
+				E91AD0B81D09BCDF000ED124 /* ViewController.swift */,
+				E91AD0BA1D09BCDF000ED124 /* Main.storyboard */,
+				E91AD0BD1D09BCDF000ED124 /* Assets.xcassets */,
+				E91AD0BF1D09BCDF000ED124 /* LaunchScreen.storyboard */,
+				E91AD0C21D09BCDF000ED124 /* Info.plist */,
+			);
+			path = "Stretchy Snacks";
+			sourceTree = "<group>";
+		};
+		E91AD0CA1D09BCDF000ED124 /* Stretchy SnacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91AD0CB1D09BCDF000ED124 /* Stretchy_SnacksTests.swift */,
+				E91AD0CD1D09BCDF000ED124 /* Info.plist */,
+			);
+			path = "Stretchy SnacksTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91AD0B21D09BCDF000ED124 /* Stretchy Snacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AD0D01D09BCDF000ED124 /* Build configuration list for PBXNativeTarget "Stretchy Snacks" */;
+			buildPhases = (
+				E91AD0AF1D09BCDF000ED124 /* Sources */,
+				E91AD0B01D09BCDF000ED124 /* Frameworks */,
+				E91AD0B11D09BCDF000ED124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stretchy Snacks";
+			productName = "Stretchy Snacks";
+			productReference = E91AD0B31D09BCDF000ED124 /* Stretchy Snacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91AD0C61D09BCDF000ED124 /* Stretchy SnacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AD0D31D09BCDF000ED124 /* Build configuration list for PBXNativeTarget "Stretchy SnacksTests" */;
+			buildPhases = (
+				E91AD0C31D09BCDF000ED124 /* Sources */,
+				E91AD0C41D09BCDF000ED124 /* Frameworks */,
+				E91AD0C51D09BCDF000ED124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91AD0C91D09BCDF000ED124 /* PBXTargetDependency */,
+			);
+			name = "Stretchy SnacksTests";
+			productName = "Stretchy SnacksTests";
+			productReference = E91AD0C71D09BCDF000ED124 /* Stretchy SnacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91AD0AB1D09BCDF000ED124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anton Moiseev";
+				TargetAttributes = {
+					E91AD0B21D09BCDF000ED124 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E91AD0C61D09BCDF000ED124 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E91AD0B21D09BCDF000ED124;
+					};
+				};
+			};
+			buildConfigurationList = E91AD0AE1D09BCDF000ED124 /* Build configuration list for PBXProject "Stretchy Snacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91AD0AA1D09BCDF000ED124;
+			productRefGroup = E91AD0B41D09BCDF000ED124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91AD0B21D09BCDF000ED124 /* Stretchy Snacks */,
+				E91AD0C61D09BCDF000ED124 /* Stretchy SnacksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91AD0B11D09BCDF000ED124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AD0C11D09BCDF000ED124 /* LaunchScreen.storyboard in Resources */,
+				E91AD0BE1D09BCDF000ED124 /* Assets.xcassets in Resources */,
+				E91AD0BC1D09BCDF000ED124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AD0C51D09BCDF000ED124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91AD0AF1D09BCDF000ED124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AD0B91D09BCDF000ED124 /* ViewController.swift in Sources */,
+				E91AD0B71D09BCDF000ED124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AD0C31D09BCDF000ED124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AD0CC1D09BCDF000ED124 /* Stretchy_SnacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91AD0C91D09BCDF000ED124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91AD0B21D09BCDF000ED124 /* Stretchy Snacks */;
+			targetProxy = E91AD0C81D09BCDF000ED124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E91AD0BA1D09BCDF000ED124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91AD0BB1D09BCDF000ED124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E91AD0BF1D09BCDF000ED124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91AD0C01D09BCDF000ED124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91AD0CE1D09BCDF000ED124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91AD0CF1D09BCDF000ED124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91AD0D11D09BCDF000ED124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretchy Snacks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Stretchy-Snacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E91AD0D21D09BCDF000ED124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretchy Snacks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Stretchy-Snacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E91AD0D41D09BCDF000ED124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stretchy SnacksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Stretchy-SnacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretchy Snacks.app/Stretchy Snacks";
+			};
+			name = Debug;
+		};
+		E91AD0D51D09BCDF000ED124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stretchy SnacksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Stretchy-SnacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretchy Snacks.app/Stretchy Snacks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91AD0AE1D09BCDF000ED124 /* Build configuration list for PBXProject "Stretchy Snacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AD0CE1D09BCDF000ED124 /* Debug */,
+				E91AD0CF1D09BCDF000ED124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91AD0D01D09BCDF000ED124 /* Build configuration list for PBXNativeTarget "Stretchy Snacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AD0D11D09BCDF000ED124 /* Debug */,
+				E91AD0D21D09BCDF000ED124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E91AD0D31D09BCDF000ED124 /* Build configuration list for PBXNativeTarget "Stretchy SnacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AD0D41D09BCDF000ED124 /* Debug */,
+				E91AD0D51D09BCDF000ED124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91AD0AB1D09BCDF000ED124 /* Project object */;
+}
